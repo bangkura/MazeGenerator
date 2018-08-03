@@ -1,0 +1,82 @@
+h1 {
+    text-align: center;
+}
+canvas {
+    display: inline-block;
+}
+
+.show_case {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.ground {
+    animation: wall_to_ground 1s ease 0s;
+    fill: #eeeeee;
+}
+
+.wall {
+    animation: ground_to_wall 1s ease 0s;
+    fill: #666666;
+}
+
+
+@keyframes ground_to_wall
+{
+    0%   {fill: #eeeeee;}
+    1%  {fill: #f9a602;}
+    100% {fill: #666666;}
+}
+
+@-moz-keyframes ground_to_wall
+{
+    0%   {fill: #eeeeee;}
+    1%  {fill: #f9a602;}
+    100% {fill: #666666;}
+}
+
+@-o-keyframes ground_to_wall
+{
+    0%   {fill: #eeeeee;}
+    1%  {fill: #f9a602;}
+    100% {fill: #666666;}
+}
+
+@-webkit-keyframes ground_to_wall
+{
+    0%   {fill: #eeeeee;}
+    1%  {fill: #f9a602;}
+    100% {fill: #666666;}
+}
+
+@keyframes wall_to_ground
+{
+    0%   {fill: #666666;}
+    10%  {fill: #f9a602;}
+    100% {fill: #eeeeee;}
+}
+
+@-webkit-keyframes wall_to_ground
+{
+    0%   {fill: #666666;}
+    10%  {fill: #f9a602;}
+    100% {fill: #eeeeee;}
+}
+
+@-o-keyframes wall_to_ground
+{
+    0%   {fill: #666666;}
+    10%  {fill: #f9a602;}
+    100% {fill: #eeeeee;}
+}
+
+@-moz-keyframes wall_to_ground
+{
+    0%   {fill: #666666;}
+    10%  {fill: #f9a602;}
+    100% {fill: #eeeeee;}
+}
+
+#rect {
+    animation: myfirst 1s ease;
+}
